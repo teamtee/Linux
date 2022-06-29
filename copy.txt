@@ -1,0 +1,14 @@
+/sys/fs/selinux
+/var/run/nologin
+/etc/nologin
+/var/run/nscd/socket
+*/lib/x86_64-linux-gnu/tls/haswell/x86_64/libnss_systemd.so.2
+*/etc/localtime
+/var/run/utmpx
+*/proc/self/exe
+/var/log/btmp
+/etc/dpkg/dpkg.cfg.d
+
+
+
+

@@ -1,0 +1,41 @@
+[FILE]/sys/fs/selinux 2
+[ ! ]
+[ ]
+	[ERROR]/sys/fs/selinux not exist
+[FILE]/var/run/nologin 2
+[ ! ]
+[ ]
+	[ERROR]/var/run/nologin not exist
+[FILE]/etc/nologin 2
+[ ! ]
+[ ]
+	[ERROR]/etc/nologin not exist
+[FILE]/var/run/nscd/socket 2
+[ ! ]
+[ ]
+	[ERROR]/var/run/nscd/socket not exist
+[FILE]*/lib/x86_64-linux-gnu/tls/haswell/x86_64/libnss_systemd.so.2 2
+[ ! ]
+[ ]
+	[ERROR]*/lib/x86_64-linux-gnu/tls/haswell/x86_64/libnss_systemd.so.2 not exist
+[FILE]*/etc/localtime 2
+[ ! ]
+[ ]
+	[ERROR]*/etc/localtime not exist
+[FILE]/var/run/utmpx 2
+[ ! ]
+[ ]
+	[ERROR]/var/run/utmpx not exist
+[FILE]*/proc/self/exe 2
+[ ! ]
+[ ]
+	[ERROR]*/proc/self/exe not exist
+[FILE]/var/log/btmp 0
+[ ! ]
+[ ]
+	[ERROR]/var/log/btmp not exist
+[FILE]/etc/dpkg/dpkg.cfg.d 0
+[ ! ]
+[ ]
+	[ERROR]/etc/dpkg/dpkg.cfg.d not exist
+copy.sh: 31: /root: Permission denied
